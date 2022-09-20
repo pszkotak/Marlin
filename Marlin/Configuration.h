@@ -1169,7 +1169,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 400, 392.40 } // Calibrated stock extruder - 402 (Hemera stock 409, 392.40 - after calibration)
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 640, 640, 1600, 1569.6 } // Calibrated stock extruder - 402 (Hemera stock 409, 392.40 - after calibration)
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
